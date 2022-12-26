@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="https://cavinginrainbows.github.io/rah/static/css/styles.css" rel="stylesheet">
+<link rel="stylesheet" href="https://use.typekit.net/zyw7dcf.css">
+<script src="https://kit.fontawesome.com/75f03ec2ff.js" crossorigin="anonymous"></script>
+
+<title>{{ page.title }} | {{ site.title }}</title>
+
+<body>
+  
+    <div class="wrapper">
+
+        <header class="header"><hr></header>
+        
+        <nav class="nav">
+            <ul>
+                {% assign mypages = site.pages | sort: "order" %}
+                    {% for page in mypages %}
+                    <li><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
+                    {% endfor %}
+            </ul>
+        </nav>
+
+        <article class="content">
+            <h1>{{ page.title }}</h1>
+            
+            {{ content }}
+
+        </article>
+
+        <footer class="footer">
+            <span style="font-size: 1.5em;">
+                <a href="http://instagram.com/rahelgatian"><i class="fa-brands fa-instagram"></i></a>
+                <a href="http://www.twitter.com/rahthesungod"><i class="fa-brands fa-twitter"></i></a>
+                <a href="mailto:s.elgatian@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            </span>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
