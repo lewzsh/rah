@@ -18,10 +18,9 @@
         
         <nav class="nav">
             <ul>
-                {% assign mypages = site.pages | sort: "order" %}
-                    {% for page in mypages %}
-                    <li><a href="{{ page.url | absolute_url }}">{{ page.title }}</a></li>
-                    {% endfor %}
+                {% for item in site.data.navigation %}
+                <li><a href="{{ item.link | absolute_url }}">{{ item.name }}</a></li>
+                {% endfor %}
             </ul>
         </nav>
 
@@ -29,7 +28,7 @@
             <h1>{{ page.title }}</h1>
             
             {{ content }}
-
+            
         </article>
 
         <footer class="footer">

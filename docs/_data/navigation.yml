@@ -1,0 +1,8 @@
+- name: Home
+  link: /
+- name: Canon Project
+  link: /canonproject.html
+- name: Writing
+  link: /writing.html
+- name: Video
+  link: /video.html
