@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Canon Project
+title: tell me your story
 ---
 
 About the canon project page
