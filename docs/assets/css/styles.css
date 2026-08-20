@@ -6,7 +6,7 @@
 }
 
 .wrapper > * { /* all children of the wrapper div */
-    border: 1px solid orange;
+    /* border: 1px solid orange; */
     padding: 10px;
 }
 
