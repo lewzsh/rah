@@ -3,4 +3,7 @@ layout: default
 title: Video
 ---
 
-Where videos are embedded
+Let's add a video!
+
+- here is a bulleted list
+- woweeeeee
