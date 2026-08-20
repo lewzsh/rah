@@ -1,7 +1,7 @@
 - name: Home
   link: /
-- name: Canon Project
-  link: /canonproject.html
+- name: tell me your story
+  link: /yourstory.html
 - name: Writing
   link: /writing.html
 - name: Video
